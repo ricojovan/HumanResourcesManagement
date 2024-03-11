@@ -15,7 +15,7 @@ include 'ConnectionDB/connection.php';
 </head>
 <body>
     <?php include 'index.php';?>
-<>
+
     
     <script src="script.js"></script>
 </body>

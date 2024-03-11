@@ -19,13 +19,13 @@
     <header>
         <!--iamge-->
         <img src="#" alt="">
-        <h3>Golden Medal</h3>
+        <h3>Human Resources Management</h3>
     </header>
    
     <!--Menu items-->
     <div class="menu">
         <div class="item"><a href=""><i class="fas fa-desktop"></i>Dashboard</a></div>
-        <div class="item"><a class="sub-btn"><i class="fas fa-cash-register"></i>Point of Sale
+        <div class="item"><a class="sub-btn"><i class="fas fa-cash-register"></i>SAMPLE TEXT
         <!--dropdown-->
         <!--dropdown arrow-->
         <i class="fas fa-angle-right dropdown"></i>

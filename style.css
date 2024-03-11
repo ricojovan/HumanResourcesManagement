@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+.side-bar{
+    background: #3b3b3b;
+    width: 250px;
+    left: -250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    overflow-y: auto;
+    transition: 0.6s ease;
+    transition: left 0.6s ease;
+    z-index: 1000;
+}
+
+.menu-btn:hover + .side-bar,
+.side-bar:hover {
+    left: 0;
+}
+header{
+    background: #33363a;
+}
+/* header img{
+    width: 70px;
+    margin: 15px;
+    margin-left: 90px;
+    border-radius: 50%;
+    border: 2px solid #ffb606;
+} */
+header h3{
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+    padding-bottom: 13px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+.menu{
+    width: 100%;
+    margin-top: 20px;
+}
+.menu .item{
+    position: relative;
+    cursor: pointer;
+}
+.menu .item a{
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    display: block;
+    padding: 5px 30px;
+    line-height: 60px;
+}
+.item i{
+    margin-right: 15px;
+}
+.item a .dropdown{
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    transition: 0.3s ease;
+}
+.item .sub-menu{
+    background-color: #262627;
+    margin-right: 6px;
+    display: none;
+}
+.menu-btn{
+    color: #FFCD4B;
+    font-size: 50px;
+    cursor: pointer;
+    background-color: #ffffff31;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 100%;
+    padding: 6px 0 0 8px;
+    display: grid;
+    align-items: center;
+}
+.side-bar::-webkit-scrollbar{
+    width: 0px;
+}
+.item .side-menu a{
+    padding-left: 80px;
+}
+.rotate{
+    transform: rotate(90deg);
+}
+.logout{
+    position: absolute;
+    bottom: 0;
+}
+/*NAVIGATION BAR */
+
+nav {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    top: 0;
+    right: 0;
+    justify-content: space-between;
+    padding: 5px 5%;
+    border-bottom: 1px solid transparent;
+    align-items: center;
+    background-color: transparent;
+    transition: all .45s ease;
+}
+nav.sticky{
+    background-color: #221f1f93;
+    border-bottom: 1px solid #383636;
+    padding: 0px 10%;
+}
+.logo {
+    display: flex;
+    cursor: pointer;
+    height: 50px;
+}
+.navlist {
+    display: flex;
+}
+.navlist li {
+    list-style: none;
+    margin: 0 15px;
+}
+.navlist li a {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 3px;
+    text-decoration: none;
+    transition: all .45s ease;
+}
+.navlist li a:hover {
+    color: white;
+}
+.navlist a.active {
+    color: white;
+}

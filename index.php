@@ -24,7 +24,7 @@
    
     <!--Menu items-->
     <div class="menu">
-        <div class="item"><a href=""><i class="fas fa-desktop"></i>Dashboard</a></div>
+        <div class="item"><a href=""><i class="fas fa-desktop"></i>BORATIKELS</a></div>
         <div class="item"><a class="sub-btn"><i class="fas fa-cash-register"></i>SAMPLE TEXT
         <!--dropdown-->
         <!--dropdown arrow-->

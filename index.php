@@ -19,7 +19,7 @@
     <header>
         <!--iamge-->
         <img src="#" alt="">
-        <h3>Human Resources Management</h3>
+        <h3>Human Sources Manage Borat</h3>
     </header>
    
     <!--Menu items-->

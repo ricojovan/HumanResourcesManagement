@@ -19,7 +19,7 @@
     <header>
         <!--iamge-->
         <img src="#" alt="">
-        <h3>Human Sources Manage Borat</h3>
+        <h3>KUPAL KA RICO JOBAN</h3>
     </header>
    
     <!--Menu items-->
